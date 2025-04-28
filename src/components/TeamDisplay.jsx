@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 
 function TeamsList() {
   const [teams, setTeams] = useState([]);
-  const [leagueId, setLeagueId] = useState(); // New: State for league id input
+  const [leagueId, setLeagueId] = useState(); 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const API_KEY = '664f4fa5980bb8ae224bcfcd7fe2135f7a839c4798a80d35d52be6f2e79a1286'; // Your actual API key
+  const API_KEY = '664f4fa5980bb8ae224bcfcd7fe2135f7a839c4798a80d35d52be6f2e79a1286'; 
 
   const fetchTeams = async () => {
     if (!leagueId) {

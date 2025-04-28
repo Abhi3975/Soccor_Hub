@@ -1,34 +1,3 @@
-// import React from "react";
-
-// function Home() {
-//   return (
-//     <div style={styles.container}>
-//       <h1 style={styles.title}>Welcome to SoccerHub!</h1>
-//       <p style={styles.subtitle}>Your one-stop app to search for football players and teams.</p>
-//     </div>
-//   );
-// }
-
-// const styles = {
-//   container: {
-//     textAlign: "center",
-//     padding: "3rem",
-//   },
-//   title: {
-//     fontSize: "2.5rem",
-//     marginBottom: "1rem",
-//     color: "#1f2937",
-//   },
-//   subtitle: {
-//     fontSize: "1.2rem",
-//     color: "#4b5563",
-//   },
-// };
-// export default Home;
-
-
-
-
 
 import React from "react";
 
