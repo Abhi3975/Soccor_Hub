@@ -195,32 +195,6 @@
 //   infoGroup: {
 //     fontSize: '1rem',
 //     color: '#374151',
-//     marginBottom: '1rem',
-//   },
-//   statsGroup: {
-//     fontSize: '1rem',
-//     marginTop: '1rem',
-//     color: '#111827',
-//   },
-// };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React, { useState, useEffect } from 'react';
 
 export default function FootballPlayerSearch() {
