@@ -1,15 +1,45 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar.jsx";
+import Home from "./components/Home"; 
+import PlayerSearch from "./components/PlayerSearch.jsx"; 
+import TeamSearch from "./components/teamSearch.jsx"; 
+import TeamDisplay from "./components/TeamDisplay.jsx"; 
+import "./App.css"; 
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-    </>
-  )
+    <Router>
+      <div className="app-container">
+        <Navbar />
+
+        <main style={styles.mainContent}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/player-search" element={<PlayerSearch />} />
+            <Route path="/team-search" element={<TeamSearch />} />
+            <Route path="/team-display" element={<TeamDisplay />} />
+          </Routes>
+        </main>
+
+        <footer style={styles.footer}>
+          <p>&copy; {new Date().getFullYear()} SoccerHub. All rights reserved. (Made By Abhijeet 😇)</p>
+        </footer>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+const styles = {
+  mainContent: {
+    padding: "2rem",
+    minHeight: "80vh",
+  },
+  footer: {
+    backgroundColor: "#1f2937",
+    color: "#fff",
+    textAlign: "center",
+    padding: "1rem",
+    marginTop: "2rem",
+  },
+};
