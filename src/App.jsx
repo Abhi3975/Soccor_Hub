@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Home from "./components/Home"; 
 import PlayerSearch from "./components/PlayerSearch.jsx"; 
-import TeamSearch from "./components/teamSearch.jsx"; 
+import TeamSearch from "./components/TeamSearch.jsx"; 
 import TeamDisplay from "./components/TeamDisplay.jsx"; 
 import "./App.css"; 
 
