@@ -25,6 +25,8 @@ const styles = {
       position: "relative",
       margin: 0,
       padding: 0,
+
+
     },
     video: {
       position: "absolute",
@@ -35,13 +37,14 @@ const styles = {
       objectFit: "cover",
       zIndex: 1,
     },
+
     overlay: {
       position: "absolute",
       top: 0,
       left: 0,
       width: "100vw",
       height: "100vh",
-      backgroundColor: "rgba(0, 0, 0, 0.4)", // Light dark overlay for better text visibility
+      backgroundColor: "rgba(0, 0, 0, 0.4)", 
       zIndex: 2,
       display: "flex",
       flexDirection: "column",
