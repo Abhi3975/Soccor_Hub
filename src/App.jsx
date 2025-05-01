@@ -7,7 +7,10 @@ import TeamSearch from "./components/teamSearch.jsx";
 import TeamDisplay from "./components/TeamDisplay.jsx"; 
 import "./App.css"; 
 
+
+
 export default function App() {
+  let a = 'abhijeet'
   return (
     <Router>
       <div className="app-container">
@@ -29,6 +32,11 @@ export default function App() {
     </Router>
   );
 }
+
+
+
+
+
 
 const styles = {
   mainContent: {
